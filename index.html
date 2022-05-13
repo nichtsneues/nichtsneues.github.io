@@ -125,10 +125,13 @@ a:hover, a:focus {
 &lt;&lt;set $buch3 to &quot;1&quot;&gt;&gt;
 &lt;&lt;set $gitarre to &quot;1&quot;&gt;&gt;
 &lt;&lt;set $ps to &quot;1&quot;&gt;&gt;
+&lt;&lt;audio &quot;loop&quot; play loop&gt;&gt;
 </tw-passagedata><tw-passagedata pid="2" name="weiter" tags="" position="334,315" size="100,100">[[...und fährt...-&gt;weiter2]]
-&lt;&lt;audio &quot;test&quot; play loop&gt;&gt;
+&lt;&lt;audio &quot;zug&quot; play loop&gt;&gt;
+&lt;&lt;audio &quot;loop&quot; play loop&gt;&gt;
 &lt;&lt;set $ps to &quot;2&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="3" name="weiter2" tags="" position="489,315" size="100,100">[[...und fährt...-&gt;weiter]]
-&lt;&lt;audio &quot;test&quot; play loop&gt;&gt;
+&lt;&lt;audio &quot;zug&quot; play loop&gt;&gt;
+&lt;&lt;audio &quot;loop&quot; play loop&gt;&gt;
 &lt;&lt;set $ps to &quot;3&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="4" name="StorySubtitle" tags="" position="202,11" size="100,100">Eine unendliche Geschichte</tw-passagedata><tw-passagedata pid="5" name="StoryAuthor" tags="" position="317,10" size="100,100">Jan Fischer</tw-passagedata><tw-passagedata pid="6" name="StoryCaption" tags="" position="431,6" size="100,100">Ort: $Ort
 [[Inventar]] </tw-passagedata><tw-passagedata pid="7" name="StoryBanner" tags="" position="576,7" size="100,100">&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/7/75/Train_Austria.svg&quot; width=&quot;64&quot; height=&quot;64&quot;&gt;</tw-passagedata><tw-passagedata pid="8" name="Inventar" tags="" position="436,138" size="100,100">&lt;&lt;if $ticket is &quot;1&quot;&gt;&gt;Eine Fahrkarte, leicht lädiert&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $gitarre is &quot;1&quot;&gt;&gt;[[Eine Reisegitarre und die Erinnerung an ein Lied|gitarre]]&lt;&lt;/if&gt;&gt;
@@ -138,7 +141,8 @@ a:hover, a:focus {
 
 &lt;&lt;if $ps is &quot;1&quot;&gt;&gt;[[Zum Zug|Beginn]]&lt;&lt;/if&gt;&gt; &lt;&lt;if $ps is &quot;2&quot;&gt;&gt; [[Zum Zug|weiter]]&lt;&lt;/if&gt;&gt; &lt;&lt;if $ps is &quot;3&quot;&gt;&gt;[[Zum Zug|weiter2]]&lt;&lt;/if&gt;&gt;
 &lt;&lt;if $traumlied is &quot;1&quot;&gt;&gt;&lt;&lt;audio &quot;gitarre&quot; stop&gt;&gt;&lt;&lt;/if&gt;&gt;
-&lt;&lt;if $traumlied is &quot;1&quot;&gt;&gt;&lt;&lt;audio &quot;test&quot; play loop&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="StoryInit" tags="" position="701,5" size="100,100">&lt;&lt;cacheaudio &quot;test&quot; testzug.mp3&gt;&gt;
+&lt;&lt;if $traumlied is &quot;1&quot;&gt;&gt;&lt;&lt;audio &quot;loop&quot; play loop&gt;&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="9" name="StoryInit" tags="" position="701,5" size="100,100">&lt;&lt;cacheaudio &quot;zug&quot; metro.mp3&gt;&gt;
+&lt;&lt;cacheaudio &quot;loop&quot; testzug_2.mp3&gt;&gt;
 &lt;&lt;cacheaudio &quot;gitarre&quot; gitarre.mp3&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="StoryDisplayTitle" tags="" position="77,12" size="100,100">Im Zug</tw-passagedata><tw-passagedata pid="11" name="StorySharexx" tags="" position="837,4" size="100,100">[[Twitter|https://twitter.com/nichtsneues]]
 [[Facebook|https://www.facebook.com/jan.fischer.7712/]]
 [[Instagram|https://www.instagram.com/_janfischer_/]]</tw-passagedata><tw-passagedata pid="12" name="open" tags="" position="788,232" size="100,100">&quot;Kurz bevor ich meine ziellosen Wanderunden aufnahm, hatte ich mir angewöhnt, Zugvögel zu beobachten, und heute frage ich mich, ob zwischen beidem ein Zusammenhang bestand. An Tagen, an denen ich früh genug zu Hause war, blickte ich aus dem Fenster wie ein Augur, der den Himmel nach Zeichen absucht, und hoffte, das Wunder der natürlichen Immigration zu erleben. Jedes Mal, wenn ich Gänse erspähte, fragte ich mich, wie unser Leben hier unten wohl aus ihrer Perspektive aussah.&quot;
@@ -148,11 +152,12 @@ a:hover, a:focus {
 [[Zurück|Inventar]]</tw-passagedata><tw-passagedata pid="14" name="flexen" tags="" position="618,325" size="100,100">&quot;Ich bin die Mutti, die den Kinderwagen schiebt, Beobachterin der Straße. Ich bin der Mann, der seinen Vater verloren hat. Ich bin die Frau, die auf der Straße trödelt aus Protest. Ich bin die Frau, die protestieren geht, deren Füße im Alltag Mahnmale berühren, die anhält und darüber schreibt. Ich bin diejenige, die geschunden wurde und nachts durch die Straßen geht, um sich wieder sicher zu fühlen. Ich laufe durch Gebiete, in denen Krieg herrscht. Ich bin diejenige, die den Krieg in ihren Erinnerungen mit sich trägt. Ich höre genau hin. Ich beobachte unsere Räume in Zeitlupe von der Shopping Mall bis zu deinem Hinterhof. Ich verschlinge jeden einzelnen Pflasterstein. Ich bin die Bouncerin im Club deiner Wahl. Durch mich läuft der Rhythmus der Stadt. Ich wandle zwischen den Geschlechtern und ihren Vorstellungen, auf der Suche nach Sex, auf der Suche nach nichts Bestimmtem, ich bin überall auf der Welt und laufe und laufe und laufe.&quot;
 
 [[Zurück|Inventar]]
-</tw-passagedata><tw-passagedata pid="15" name="gitarre" tags="" position="756,343" size="100,100">&lt;&lt;audio &quot;test&quot; pause&gt;&gt;
-&lt;&lt;audio &quot;gitarre&quot; play&gt;&gt;
-Es klingt ganz fern.
+</tw-passagedata><tw-passagedata pid="15" name="gitarre" tags="" position="756,343" size="100,100">Es klingt ganz fern.
 
 [[Zurück|Inventar]]
+
+&lt;&lt;audio &quot;loop&quot; pause&gt;&gt;
+&lt;&lt;audio &quot;gitarre&quot; play&gt;&gt;
 &lt;&lt;set $traumlied to &quot;1&quot;&gt;&gt;</tw-passagedata></tw-storydata>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
